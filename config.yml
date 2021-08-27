@@ -1,0 +1,10 @@
+# 照片地址
+base_image_path: "./src.png"
+# 水印文字
+text: "仅限用于办理护照"
+# 字体 默认为宋体
+font_path: "./SIMKAI.TTF"
+# 字体大小
+font_size: 14
+# 保存图片地址
+save_path: "./result.png"
