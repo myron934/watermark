@@ -7,7 +7,7 @@ import (
 )
 
 func TestDrawText(t *testing.T) {
-	im, err := gg.LoadImage("./avatar.jpeg")
+	im, err := gg.LoadImage("./src.jpeg")
 	if err != nil {
 		t.Error(err)
 		return
