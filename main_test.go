@@ -34,7 +34,7 @@ func TestDrawText(t *testing.T) {
 		panic(err)
 	}
 	//dc.Rotate(45)
-	dc.DrawStringAnchored("Hello, 世界!", 0, 0, 0, 1)
+	dc.DrawStringAnchored("Hello, 世界111!", 0, 0, 0, 1)
 
 	dc.DrawStringAnchored("Hello, 世界!", 100, 0, 0, 1)
 	dc.DrawStringAnchored("Hello, 世界!", 100, 100, 0, 1)
